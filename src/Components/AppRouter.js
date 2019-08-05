@@ -47,10 +47,10 @@ useEffect(() => {
 
   return (
     <div>
-     <Route path="/names" render = {props => {
+     <Route path="/main/names" render = {props => {
        return ( <CharacterList {...props} characters = {characters} />
     )} }/> 
-    <Route  path="/spells" render = {props => {
+    <Route  path="/main/spells" render = {props => {
        return ( <SpellsList {...props} spells = {spells} />
     )} }/> 
       
