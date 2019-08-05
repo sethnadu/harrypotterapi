@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <Nav />
     <Route exact path="/" />
-    <Route exact path="/characters" component = {AppRouter} />
-    <Route exact path="/spells" component = {AppRouter} />
+    <Route path="/characters" component = {AppRouter} />
+    <Route path="/spells" component = {AppRouter} />
     </div>
   );
 }
