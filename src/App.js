@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 
 
 import AppRouter from "./Components/AppRouter.js"
@@ -12,12 +12,14 @@ import './App.css';
 function App() {
 
   return (
+    <Router>
     <div className="App">
       <Nav />
       <AppRouter />
     <Route exact path="/" />
    
     </div>
+    </Router>
   );
 }
 
