@@ -44,14 +44,14 @@ function Nav() {
       <AppBar className={classes.backgroundColor} position="static">
         <Toolbar>
         <Button color="inherit" className={classes.buttonColors}>Home</Button>
-        <Button color="inherit" className={classes.buttonColors}><Link style = {{textDecoration: "none", color: "#f8c20e"}} exact to ="/characters">Names</Link></Button>
+        <Button color="inherit" className={classes.buttonColors}><Link style = {{textDecoration: "none", color: "#f8c20e"}} exact to ="/#/characters">Names</Link></Button>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" className={classes.title}>
             <img className = {classes.logo} alt = "Harry Potter Logo" src={HarryPotterLogo} />
           </Typography>
-          <Button color="inherit"  className={classes.buttonColors}><Link style = {{textDecoration: "none", color: "#f8c20e"}} exact to ="/spells">Spells</Link></Button>
+          <Button color="inherit"  className={classes.buttonColors}><Link style = {{textDecoration: "none", color: "#f8c20e"}} exact to ="/#/spells">Spells</Link></Button>
           <Button color="inherit"  className={classes.buttonColors}>Houses</Button>
         </Toolbar>
       </AppBar>

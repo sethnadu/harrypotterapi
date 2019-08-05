@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Nav />
       <AppRouter />
-    <Route exact path="/" />
+    <Route exact path="/#" />
    
     </div>
   );
