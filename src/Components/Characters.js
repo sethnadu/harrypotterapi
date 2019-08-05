@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     margin: "20px",
     background: "linear-gradient( to right, #8d0901, #f8c20e)",
     borderRadius: "10px",
-    boxShadow: "5px 5px 10px"
+    boxShadow: "5px 5px 10px #f8c20e"
   },
   title: {
     fontSize: 14,
