@@ -3,7 +3,8 @@
   background-image: url("https://orlandoinformer.com/wp-content/uploads/2016/05/DSC_0910-Edit_1-Edit_2-Edit_3-Edit_fused-5.jpg");
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .App-logo {
