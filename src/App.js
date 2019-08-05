@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <AppRouter />
     <Route exact path="/" />
-    <Route path="/characters" component = {AppRouter} />
-    <Route path="/spells" component = {AppRouter} />
+   
     </div>
   );
 }
