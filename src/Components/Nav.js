@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     textAlign: "center",
   },
   logo: {
-      maxWidth: "150px",
+      maxWidth: "120px",
   },
   buttonColors: {
       color: "#f8c20e",

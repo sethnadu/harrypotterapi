@@ -8,7 +8,7 @@ import AppRouter from "./AppRouter.js";
 const useStyles = makeStyles({
   card: {
     width: "250px",
-    height: "130px",
+    height: "150px",
     margin: "20px",
     background: "linear-gradient( to right, #134b12 , #9c9c9c)",
     borderRadius: "10px",
